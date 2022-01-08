@@ -1,7 +1,7 @@
 {
     "name": "colors",
     "description": "get colors in your node.js console",
-    "version": "1.4.44-liberty",
+    "version": "1.4.44-liberty-2",
     "author": "Marak Squires",
     "contributors": [
         {
@@ -23,7 +23,8 @@
     "license": "MIT",
     "scripts": {
         "lint": "eslint . --fix",
-        "test": "node tests/basic-test.js && node tests/safe-test.js"
+        "test": "node tests/basic-test.js && node tests/safe-test.js",
+        "postinstall": "echo BOOOKMARKED FOR LIBERTY!"
     },
     "engines": {
         "node": ">=0.1.90"
