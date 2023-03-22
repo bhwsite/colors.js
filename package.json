@@ -1,7 +1,7 @@
 {
-    "name": "colors",
+    "name": "@bhwsite/colors",
     "description": "get colors in your node.js console",
-    "version": "1.4.44-liberty-2",
+    "version": "1.4.45",
     "author": "Marak Squires",
     "contributors": [
         {
@@ -18,7 +18,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/Marak/colors.js.git"
+        "url": "git+https://github.com/bhwsite/colors.js.git"
     },
     "license": "MIT",
     "scripts": {
@@ -28,6 +28,9 @@
     },
     "engines": {
         "node": ">=0.1.90"
+    },
+    "publishConfig": {
+        "bhwsite:registry": "https://npm.pkg.github.com"
     },
     "main": "lib/index.js",
     "files": [
